@@ -163,15 +163,15 @@ mod:hook(GenericHitReactionExtension, "_execute_effect", function(func, self, un
                     sizes[unit_type] = 0
  
                    if (hit_zone == "head" or hit_zone == "weakspot") and crit then
-                        color = mod:get_color_from_settings("crithead")
+                        color = mod:get_color_from_settings("crithead") -- colour for headcrit kill
                    elseif damage_type == "arrow_poison_dot" or damage_type == "bleed" or damage_type == "burninating" then
-                        color = mod:get_color_from_settings("dot")
+                        color = mod:get_color_from_settings("dot") -- colour for DoT kill
                    elseif crit then
-                        color = mod:get_color_from_settings("crit")
+                        color = mod:get_color_from_settings("crit") -- colour for crit kill
                    elseif hit_zone == "head" or hit_zone == "weakspot" then
-                        color = mod:get_color_from_settings("head")
+                        color = mod:get_color_from_settings("head") -- colour for headshot kill
                    elseif opacities[unit_type] and opacities[unit_type] < 200 then
-                        color = mod:get_color_from_settings("regular")
+                        color = mod:get_color_from_settings("regular") -- colour for regular kill
                    end
 
                    if color then
