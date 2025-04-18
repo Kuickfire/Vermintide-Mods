@@ -165,37 +165,37 @@ return {
 		en = "DoT Killmarkers Color"
 	},
         KILL_MARKERS_DOT_COLOR_GROUP_T = {
-		en = "Set RGB color of the DoT killmarkers Color"
+		en = "Set RGB color of the DoT killmarkers color"
 	},
         KILL_MARKERS_REGULAR_COLOR_GROUP = {
 		en = "Regular Killmarkers Color"
 	},
         KILL_MARKERS_REGULAR_COLOR_GROUP_T = {
-		en = "Set RGB color of the Regular killmarkers Color"
+		en = "Set RGB color of the Regular killmarkers color"
 	},
         KILL_MARKERS_CRITICAL_COLOR_GROUP = {
 		en = "Critical Kill Markers Color"
 	},
         KILL_MARKERS_CRITICAL_COLOR_GROUP_T = {
-		en = "Set RGB color of the critical killmarkers Color"
+		en = "Set RGB color of the critical killmarkers color"
 	},
         KILL_MARKERS_HEAD_COLOR_GROUP = {
 		en = "Headshot Killmarkers Color"
 	},
         KILL_MARKERS_HEAD_COLOR_GROUP_T = {
-		en = "Set RGB color of the headshot killmarkers Color"
+		en = "Set RGB color of the headshot killmarkers color"
 	},
         KILL_MARKERS_HS_AND_CRIT_COLOR_GROUP = {
 		en = "Headshot+Critical Killmarkers Color"
 	},
         KILL_MARKERS_HS_AND_CRIT_COLOR_GROUP_T = {
-		en = "Set RGB color of the headshot+critical killmarkers Color"
+		en = "Set RGB color of the headshot+critical killmarkers color"
 	},
         KILL_MARKERS_ASSISTS_COLOR_GROUP = {
 		en = "Assists Killmarkers Color"
 	},
         KILL_MARKERS_ASSISTS_COLOR_GROUP_T = {
-		en = "Set RGB color of the assist killmarkers Color"
+		en = "Set RGB color of the assist killmarkers color"
 	},
 
 }
